@@ -1,1 +1,38 @@
-<h1>Selamat Datang di online shop</h1>
+<%- include('v_layout/head') %>
+  <body class="d-flex h-100 text-center text-bg-dark">
+    <link href="/css-tambahan/cover-beranda.css" rel="stylesheet">
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+        <header class="mb-auto">
+           <div>
+             <h3 class="float-md-start mb-0">Tokopadhia</h3>
+              <nav class="nav nav-masthead justify-content-center float-md-end">
+                    <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="#">Beranda</a>
+                    <a class="nav-link fw-bold py-1 px-0" href="/auth/login">Masuk</a>
+                    <a class="nav-link fw-bold py-1 px-0" href="/auth/register">Daftar</a>
+              </nav>
+          </div>
+        </header>
+
+         <main class="px-3">
+          <h1>Selamat Datang</h1>
+          <p class="lead">
+            Toko yang bisa melakukan transaksi tanpa datang kelokasi Toko
+            <br><br>
+            POS ( Point Of Sales) adalah sbuah sistem untuk mencatat transaksi 
+            secara offline/tatap muka.
+
+          </p>
+          <p class="lead">
+          <a href="#" class="btn btn-lg btn-light fw-bold border-white bg-white">Learn more</a>
+        </p>
+      </main>
+
+      <footer class="mt-auto text-white-50">
+        <p>
+          Dibuat dirumah deket <span class="text-white">rumah tetangga</span>
+        </p>
+      </footer>
+    </div>
+
+    </body>
+    <%- include('v_layout/foot') %>
